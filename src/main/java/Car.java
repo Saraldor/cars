@@ -13,7 +13,9 @@ public class Car {
     public void setRegNr(String regNr) {
         this.regNr = regNr;
     }
-public void printRandomPlatte (){
+
+
+    public void printRandomPlatte (){
         int letter1 =65 + (int)(Math.random()* (90-65));
     int letter2 =65 + (int)(Math.random()* (90-65));
     int letter3 =65 + (int)(Math.random()* (90-65));
