@@ -1,7 +1,7 @@
 import org.junit.Test;
+import org.mockito.Mockito;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
 
 public class CarTest {
 
@@ -9,6 +9,6 @@ public class CarTest {
     public void creation_of_new_car(){
         Car output = new Car();
 
-        assertEquals("ABC123", output.getRegNr());
+        assertEquals(6,output.getRegNr().length());
     }
 }
